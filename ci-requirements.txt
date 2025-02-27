@@ -1,0 +1,19 @@
+# CI-specific requirements with more flexible version constraints
+# Basic dependencies
+requests>=2.25.0
+pydantic>=2.0.0
+python-dotenv>=0.15.0
+
+# Testing dependencies
+pytest>=6.0.0
+flake8>=3.8.0
+
+# These are commented out as they're not needed for basic CI tests
+# sentence-transformers
+# chromadb
+# ollama
+# langchain
+# langchain-community
+# openai
+# faiss-cpu
+# numpy 
