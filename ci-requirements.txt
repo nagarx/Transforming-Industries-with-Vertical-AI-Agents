@@ -1,20 +1,11 @@
-# CI-specific requirements with more flexible version constraints
+# CI-specific requirements with minimal dependencies
 # Basic dependencies
 requests>=2.25.0
 pydantic>=2.0.0
 python-dotenv>=0.15.0
-importlib-metadata>=1.0.0  # For Python 3.8 compatibility with find_spec
 
 # Testing dependencies
 pytest>=6.0.0
 flake8>=3.8.0
 
-# These are commented out as they're not needed for basic CI tests
-# sentence-transformers
-# chromadb
-# ollama
-# langchain
-# langchain-community
-# openai
-# faiss-cpu
-# numpy 
+# Everything else is excluded for CI testing 
