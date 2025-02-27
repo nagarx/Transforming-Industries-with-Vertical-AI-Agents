@@ -3,6 +3,7 @@
 requests>=2.25.0
 pydantic>=2.0.0
 python-dotenv>=0.15.0
+importlib-metadata>=1.0.0  # For Python 3.8 compatibility with find_spec
 
 # Testing dependencies
 pytest>=6.0.0
