@@ -1,0 +1,19 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Documentation
+*.md text
+*.txt text
+*.rst text
+
+# Python files
+*.py text diff=python
+
+# Exclude from language statistics
+examples/data/* linguist-vendored
+tests/fixtures/* linguist-vendored
+
+# Ignore built distribution files in language statistics
+dist/* linguist-generated=true
+build/* linguist-generated=true
+*.egg-info/* linguist-generated=true 
