@@ -2,6 +2,14 @@
 
 A comprehensive implementation of the paper "Agentic Systems: A Guide to Transforming Industries with Vertical AI Agents" by Fouad Bousetouane.
 
+## Key Architectures
+
+### RAG Agent Router with Domain-Specific Vector Databases
+![RAG Agent Router Architecture](docs/images/rag_router.png)
+
+### RAG Orchestrated Multi-Agent System for Multi-Domain Knowledge Retrieval
+![RAG Multi-Agent System Architecture](docs/images/rag_multi_agent.png)
+
 ## Overview
 
 This repository provides a technical implementation of agentic systems as described in the paper. It showcases the architecture and components of AI agents powered by Large Language Models (LLMs), particularly using the Ollama deepseek-r1:14b model for local deployment.
